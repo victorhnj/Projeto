@@ -13,7 +13,5 @@ export default {
         type: 'string',
         title: 'Titulo'
       },
-      
-
     ]
   }
