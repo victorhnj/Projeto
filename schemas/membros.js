@@ -29,7 +29,7 @@ export default {
         },
         {
             name: 'destaque',
-            type: 'imageObject',
+            type: 'boolean',
             title: 'Destaque'
         }
     ]
