@@ -14,6 +14,13 @@ export default {
             name: 'descricao',
             type: 'string',
             title: 'Descricao'
+        },
+
+        {
+            name: 'sub_titulo',
+            type: 'string',
+            title: 'Sub Titulo'
         }
+
     ]
 }
