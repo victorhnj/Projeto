@@ -27,6 +27,13 @@ export default {
             type: 'string',
             title: 'Bio'
         },
+
+        {
+          name: 'sub_titulo',
+          type: 'string',
+          title: 'Sub Titulo'
+       },
+
         {
             name: 'destaque',
             type: 'boolean',
