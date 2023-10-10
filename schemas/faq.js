@@ -13,6 +13,12 @@ export default {
             title: 'Resposta',
             name: 'resposta',
             type: 'string'
+        },
+
+        {
+            title: 'Ordem',
+            name: 'ordem',
+            type: 'number'
         }
     ]
 }

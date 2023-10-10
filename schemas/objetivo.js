@@ -4,9 +4,9 @@ export default {
     title: 'Objetivo',
     fields: [
         {
-            name: 'objetivo_title',
+            name: 'descricao_title',
             type: 'string',
-            title: 'Objetivo'
+            title: 'Descricao'
         },
 
         {
