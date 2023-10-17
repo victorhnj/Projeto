@@ -1,6 +1,6 @@
 export default {
     name: 'pilar_iesEsinaes',
-    title: 'Pilar Ies E Sinais',
+    title: 'Pilares E Sinais',
     type: 'document',
     fields: [
         
@@ -11,16 +11,16 @@ export default {
         },
 
         {
-            name: 'descricao',
-            type: 'string',
-            title: 'Descricao'
-        },
-
-        {
             name: 'sub_titulo',
             type: 'string',
             title: 'Sub Titulo'
-        }
+        },
 
+        {
+            title: 'Pilares',
+            name: 'pilares',
+            type: 'array',
+            of: [{ type: 'string' }],
+        }
     ]
 }
