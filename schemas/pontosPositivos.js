@@ -1,7 +1,7 @@
 export default {
     name: 'pontosPositivos',
     type: 'document',
-    title: 'Pontos_Positivos',
+    title: 'Pontos Positivos',
     fields: [
         {
             name: 'titulo',

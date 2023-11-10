@@ -5,21 +5,9 @@ export default {
     fields: [
        
         {
-            name: 'ano',
-            type: 'number',
-            title: 'Ano '
-        },
-
-        {
-            name: 'sala',
-            title: 'Sala',
-            type: 'string'
-        },
-        
-        {
-            title: 'Porcentagem',
-            name: 'porcentagem',
-            type: 'number'
+        name: 'grafico_infra',
+        type: 'image',
+        title: 'Grafico infraestrutura'
         }
     ]
 }
