@@ -10,5 +10,6 @@ import resultado from "./resultado"
 import satisfacao_biopark from "./satisfacao_biopark"
 import satisfacao_curso from "./satisfacao_curso"
 import satisfacao_infra from "./satisfacao_infra"
+import membrosDestaque from "./membroDestaque"
 
-export const schemaTypes = [imag_Qrcode, diretriz, objetivo, pontosPositivos, faq, pilar_iesEsinaes, membros, estatuto_cpa, resultado, satisfacao_biopark, satisfacao_curso, satisfacao_infra]
+export const schemaTypes = [imag_Qrcode, diretriz, objetivo, pontosPositivos, faq, pilar_iesEsinaes, membros,membrosDestaque,estatuto_cpa, resultado, satisfacao_biopark, satisfacao_curso, satisfacao_infra]

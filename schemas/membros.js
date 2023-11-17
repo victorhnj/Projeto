@@ -5,39 +5,44 @@ export default {
     title: 'Membros',
     fields: [
       {
-        name: 'foto',
-        type: 'image',
-        title: 'Foto'
+        name: 'nome',
+        title: 'Nome',
+        type: 'string'
+      },
+      {
+        name: 'sobrenome',
+        title: 'Sobrenome',
+        type: 'string'
+      },
+      {
+        name: 'cargo',
+        title: 'Cargo',
+        type: 'string'
+      },
+      {
+        name: 'bio',
+        title: 'Biografia',
+        type: 'text'
+      },
+      {
+        name: 'titulo',
+        title: 'Título',
+        type: 'string'
       },
 
       {
-        name: 'nome_integrante',
-        type: 'string',
-        title: 'Nome do Integrante'
-        },
-
-        {
-            name: 'cargo',
-            type: 'string',
-            title: 'Cargo'
-        },
-
-        {
-            name: 'bio',
-            type: 'string',
-            title: 'Bio'
-        },
-
-        {
-          name: 'sub_titulo',
-          type: 'string',
-          title: 'Sub Titulo'
-       },
-
-        {
-            name: 'destaque',
-            type: 'boolean',
-            title: 'Destaque'
+        name: 'subtitulo',
+        title: 'Subtítulo',
+        type: 'string'
+      },
+      
+      {
+        name: 'imagem',
+        title: 'Imagem',
+        type: 'image',
+        options: {
+          hotspot: true 
         }
+      }
     ]
   }
