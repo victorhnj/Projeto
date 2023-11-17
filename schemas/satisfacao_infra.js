@@ -8,6 +8,13 @@ export default {
         name: 'grafico_infra',
         type: 'image',
         title: 'Grafico infraestrutura'
+        },
+
+        {
+        name: 'avalicao',
+        type: 'string',
+        title: 'Data da avaliação'
         }
+        
     ]
 }

@@ -8,6 +8,12 @@ export default {
             name: 'grafico_curso',
             type: 'image',
             title: 'Grafico curso'
-            }
+            },
+
+            {
+                name: 'avalicao',
+                type: 'string',
+                title: 'Data da avaliação'
+                }
     ]
 }

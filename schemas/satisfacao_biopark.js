@@ -7,6 +7,12 @@ export default {
             name: 'grafico_biopark',
             type: 'image',
             title: 'Grafico biopark'
-            }
+            },
+
+            {
+                name: 'avalicao',
+                type: 'string',
+                title: 'Data da avaliação'
+                }
     ]
 }
