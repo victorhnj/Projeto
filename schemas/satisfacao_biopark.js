@@ -3,17 +3,10 @@ export default {
     type: 'document',
     title: 'Satisfacao Biopark',
     fields: [
-       
         {
-            name: 'ano',
-            type: 'number',
-            title: 'Ano '
-        },
-
-        {
-            title: 'Porcentagem',
-            name: 'porcentagem',
-            type: 'number'
-        }
+            name: 'grafico_biopark',
+            type: 'image',
+            title: 'Grafico biopark'
+            }
     ]
 }

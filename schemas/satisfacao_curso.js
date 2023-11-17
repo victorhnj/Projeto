@@ -4,22 +4,10 @@ export default {
     title: 'Satisfacao Curso',
     fields: [
        
-        {
-            name: 'ano',
-            type: 'number',
-            title: 'Ano '
-        },
-
-        {
-            name: 'curso',
-            title: 'Curso',
-            type: 'string'
-        },
-
-        {
-            title: 'Porcentagem',
-            name: 'porcentagem',
-            type: 'number'
-        }
+         {
+            name: 'grafico_curso',
+            type: 'image',
+            title: 'Grafico curso'
+            }
     ]
 }
