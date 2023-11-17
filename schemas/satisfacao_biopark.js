@@ -12,7 +12,7 @@ export default {
             {
                 name: 'avalicao',
                 type: 'string',
-                title: 'Data da avaliação'
+                title: 'Referências da figura'
                 }
     ]
 }
